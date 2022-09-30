@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 50px;
+    
+    
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    gap: 110px;
+    
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    justify-content: flex-start;
+    
+}
+.list-item{
+    font-size: 30px;
+    
+    
+}
+
+.list-item:hover{
+    text-decoration: underline;
+    color: black;
+    cursor: grab;
+    
+    
+}
+
+.button-group{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+
+.hero-container{
+    display: flex;
+}
+
+div .nav-button{
+    
+    padding: 8px 40px;
+    border-radius: 11.2px;
+    color: #515151;
+    margin-left: 40px;
+
+   position: relative;
+   bottom: 40.25px;
+    
+}
+
+.section-banner{
+    margin-bottom: 50px;
+}
+
+.globe{
+   
+position: absolute;
+
+left: 870px;
+}
+.star{
+    
+    position: absolute;
+    
+    left: 1355px;
+    top: 150px;
+}
+
+.star-2{
+    position: absolute;
+    top: 580px;
+    left: 600px;
+   
+}
+
+.square>img{
+    position: absolute;
+    top: 380px;
+    left: 90px;
+    
+}
+
+.pic{
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.hero-container-right{
+    text-align: center;
+    margin-left: 200px;
+}
+
+.hero-heading{
+    font-size: 60px;
+    padding: 80px;
+     
+}
+
+.hero-description{
+    color: #626262;
+  padding: 10px 345px;
+  font-family: 'Poppins';
+ position: relative;
+ bottom: 60px;
+}
+
+ .button-email{
+    padding: 9px 30px;
+    border-radius: 15px;
+    color: #5F5F5F;
+    font-family: 'Orbitron';
+ }
+
+ .button-join{
+    background-color: black;
+    color: white;
+    padding: 9px 8px;
+    border-radius: 12px;
+    font-family: 'Orbitron';
+
+ }
+
+ .contact-heading{
+    font-family: 'Poppins',sans-serif;
+    color: #C1C1C1;
+    font-weight: 300; 
+   position: relative;
+
+ }
+ /* --Icons-- */
+ 
+ .icons>span{
+    margin-right: 10px;
+    margin-top: 10px;
+
+ }
+
+ .icons span img{
+    padding-top: 15px;
+ }
+
+
+
